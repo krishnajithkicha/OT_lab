@@ -1,0 +1,15 @@
+Labcycle questions
+Transportation Problems:
+
+    Develop a program to find the optimal transportation plan for a given set of supply and demand points, along with the associated transportation costs. The program should minimize the total transportation cost.
+    Write a program to solve a transportation problem using the Vogel's Approximation Method (VAM). The program should take the supply and demand for each location, as well as the transportation costs between them, as input and return the optimal transportation plan (minimizing total cost).
+    Implement a function to calculate the initial feasible solution based on VAM
+
+ 
+
+3. Assignment Problem:
+
+    Create a program to solve an assignment problem where a set of tasks needs to be assigned to a set of workers, with associated costs. The program should minimize the total assignment cost while ensuring each task is assigned to only one worker and each worker receives only one task.
+    Write a program to solve an assignment problem using the Hungarian Algorithm. The program should take the cost matrix representing the assignment costs between different tasks and workers as input and return the optimal assignment (minimizing total cost) with no conflicts.
+
+ 
