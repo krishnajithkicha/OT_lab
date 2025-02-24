@@ -1,3 +1,43 @@
+1. Implement Travelling salesman Problem
+2. Implement the 0/1 knapsack problem using dynamic programming
+3. A furniture company produces chairs and tables from two resources, wood
+and metal. The company has 125 units of wood and 80 units of metal
+available. Each chair requires 1 unit of wood and 3 units of metal, while each
+table requires 5 units of wood and 1 unit of metal. The profit from selling a
+chair is 20 dollars, and the profit from selling a table is 30 dollars. How many
+chairs and tables should the company produce to maximize its profit? What is
+the maximum profit? Implement using linear programming package
+
+4. A farmer has a field of 60 acres in which he plants two crops, wheat and
+barley. The farmer has to plant at least 20 acres of wheat and at least 10
+acres of barley. He has 1200 pounds of fertilizer and 600 pounds of
+insecticide available. Each acre of wheat requires 20 pounds of fertilizer and
+10 pounds of insecticide, while each acre of barley requires 10 pounds of
+fertilizer and 15 pounds of insecticide. The profit from an acre of wheat is 200
+dollars, and the profit from an acre of barley is 150 dollars. How many acres
+of each crop should the farmer plant to maximize his profit? What is the
+maximum profit? Implement using linear programming package
+
+5 A bakery sells two types of cakes, chocolate and vanilla. The bakery has a
+daily budget of 500 dollars and can produce at most 400 cakes per day. Each
+chocolate cake costs 2 dollars to make and sells for 5 dollars, while each
+vanilla cake costs 1 dollar to make and sells for 3 dollars. The bakery also has
+to satisfy the demand of at least 100 chocolate cakes and at least 50 vanilla
+cakes per day. How many cakes of each type should the bakery make to
+maximize its revenue? What is the maximum revenue? Implement using linear
+programming package
+
+6 Solve the following without using linear programming package
+Maximize
+p=2u1​+3u2​+u3​
+Subject to
+
+u1​+u2​+u3​≤4
+u1​+2u2​−u3​≥2
+u1​,u2​,u3​≥0
+
+
+
 Labcycle questions
 Transportation Problems:
 
@@ -13,3 +53,13 @@ Transportation Problems:
     Write a program to solve an assignment problem using the Hungarian Algorithm. The program should take the cost matrix representing the assignment costs between different tasks and workers as input and return the optimal assignment (minimizing total cost) with no conflicts.
 
  
+Implementation
+
+    Write a Python function that calculates the Economic Order Quantity (EOQ) given the annual demand, ordering cost, and holding cost per unit.
+        The function should take these three parameters as input and return the calculated EOQ.
+
+
+        A company manufactures 10,000 units of a product annually. The ordering cost per order is $200, and the holding cost per unit per year is $5.
+
+        Write Python code to calculate the EOQ using the function you defined in part 1.
+        Print the calculated EOQ to the console
